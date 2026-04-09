@@ -9,6 +9,11 @@
     Cross-Origin-Embedder-Policy = "require-corp"
 
 [[headers]]
+  for = "/uv/sw.js"
+  [headers.values]
+    Service-Worker-Allowed = "/"
+
+[[headers]]
   for = "/uv/uv.sw.js"
   [headers.values]
     Service-Worker-Allowed = "/"

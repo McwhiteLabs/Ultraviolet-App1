@@ -11,6 +11,12 @@
         ]
       },
       {
+        "source": "/uv/sw.js",
+        "headers": [
+          { "key": "Service-Worker-Allowed", "value": "/" }
+        ]
+      },
+      {
         "source": "/uv/uv.sw.js",
         "headers": [
           { "key": "Service-Worker-Allowed", "value": "/" }
